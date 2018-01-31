@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>陈孟宇</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .head {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            background-color: #722872;
+        }
+
+        .logo {
+            position: absolute;
+            line-height: 80px;
+            float: left;
+            left: 200px;
+
+        }
+
+        h2 {
+            margin:20px 0;
+            text-align: center;
+            color: #888888;
+        }
+        hr{
+            margin:0 auto;
+            height: 15px;
+            border: none;
+            width: 500px;
+            border-top: 5px solid #888888;
+        }
+        .logo a {
+            color: white;
+        }
+
+        #menu {
+            position: absolute;
+            float: right;
+            right: 100px;
+        }
+
+        #menu li {
+            margin-right: 20px;
+            line-height: 80px;
+            display: inline-block;
+        }
+
+        #menu li a {
+            color: #cccccc;
+        }
+
+        #container {
+            line-height: 45px;
+            font-size: large;
+            margin-top: 80px;
+            width: 100%;
+            height: 100%;
+            background-color: #888888;
+        }
+
+        #container .items {
+            margin: 0 auto;
+            border: 1px solid #757575;
+            width: 1024px;
+        }
+
+        .item2 {
+            background-color: #eeeeee;
+        }
+
+        #container header {
+            background-color: #aaaaaa;
+            overflow: hidden;
+        }
+
+        .headshot {
+            margin: 70px 55px 80px 0;
+            float: right;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        .introduce1 {
+            color: white;
+            float: left;
+            margin: 100px 0 0 100px;
+        }
+
+        .skills {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .skills ul {
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            height: auto;
+            width: 240px;
+            margin: 80px 50px 0 50px;
+            border: 2px solid #fff;
+        }
+
+        .skills ul li:nth-child(1) {
+            background-color: #fff;
+        }
+        .skills ul li:hover{
+            background-color: #fff;
+        }
+        #content4 .works .work1{
+            border: 1px solid black;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 15px;
+        }
+        #content5 .estimate{
+            text-align: center;
+            margin: 30px;
+        }
+        footer {
+            width: 100%;
+            height: 80px;
+            background-color: #722872;
+        }
+        #menu li a:hover,
+        #menu li a.current{
+            color: black;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+<header class="head">
+    <div class="logo">
+        <a href="#">CMY</a>
+    </div>
+    <nav>
+        <ul id="menu">
+            <li><a href="#content1" class="current">个人简介</a></li>
+            <li><a href="#content2">专业技能</a></li>
+            <li><a href="#content3">项目经验</a></li>
+            <li><a href="#content4">个人评价</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="container">
+    <header id="content1" class="items">
+        <div class="introduce1">
+            <ul>
+                <li>姓名 | 陈孟宇</li>
+                <li>电话 | 17600698228</li>
+                <li>邮箱 | 17600698228@qq.com</li>
+                <li>工作年限 | 2年</li>
+            </ul>
+        </div>
+        <div class="introduce1">
+            <ul>
+                <li>学历 | 本科</li>
+                <li>期望职位 | Web前端开发工程师</li>
+                <li>目前状态 | 已离职</li>
+                <li>学校 | 黑龙江八一农垦大学</li>
+            </ul>
+        </div>
+        <div class="photo">
+            <img class="headshot" src="http://img0.pconline.com.cn/pconline/1408/21/5313057_1408107-12_thumb.jpg" alt="">
+        </div>
+    </header>
+    <div id="content2" class="items item2">
+        <h2>专业技能</h2>
+        <hr>
+        <div class="skills">
+            <ul class="skill-lang">
+                <li>语言</li>
+                <li>HTML(5)</li>
+                <li>CSS(3)</li>
+                <li>Javascript</li>
+            </ul>
+            <ul class="skill-idea">
+                <li>思想</li>
+                <li>W3C标准</li>
+                <li>语义化</li>
+                <li>响应式设计</li>
+            </ul>
+            <ul class="skill-frame">
+                <li>框架</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>Vue</li>
+                <li>React</li>
+            </ul>
+            <ul class="skill-tech">
+                <li>技术</li>
+                <li>Git</li>
+                <li>Ajax</li>
+                <li>nodejs</li>
+                <li>webpack</li>
+            </ul>
+        </div>
+    </div>
+    <div id="content3" class="items item2">
+        <h2>工作经历</h2>
+        <hr>
+        <div>
+
+        </div>
+    </div>
+    <div id="content4" class="items item2">
+        <h2>项目经验</h2>
+        <hr>
+        <div class="works">
+            <div class="work1">
+                <h3>电商类书城</h3>
+                <p>该项目是一个 WebAPP, 页面主分首页、列表页、商品详情页、购物车、及订单页和个
+                    人中心页，用户根据挑选的商品进行购买</p>
+                <p>技术栈：vue+vue-route +node.js+css3 等。</p>
+            </div>
+            <div class="work1">
+                <h3>客户信息管理系统</h3>
+                <p>该项目是对于用户注册管理，按照功能可划分为注册登录，添加、刪除、修改、详情、搜
+                    索等模块。项目采用 webpack+Vue 搭建结构，将每个模块拆分为单独组件。我主要负责编写展示页、
+                    修改、添加等组件，使用 less 进行预编译。</p>
+                <p>技术栈：Vue+Vue-route+vue-cli+node。</p>
+            </div>
+            <div class="work1">
+                <h3>音乐播放器</h3>
+                <p>该项目是一个 WebAPP,页面结构仿照网易云音乐，整个页面分为三个大板块：首页展示、
+                    收藏、登陆；功能实现了，点击播放，登陆注册，歌单收藏，歌曲搜索等功能；主要负责了首页展示，
+                    歌单详情展示，歌单收藏。</p>
+                <p>技术栈：react，node，axios，react-router</p>
+            </div>
+        </div>
+    </div>
+    <div id="content5" class="items item2">
+        <h2>个人评价</h2>
+        <hr>
+        <div class="estimate">
+            <p>工作责任心强，能承受一定的工作压力；</p>
+            <p>适应能力强，工作中能与同事保持有效沟通。</p>
+            <p>具备较强的学习能力 和独立解决问题的能力，对自己不熟的领域能快速地学习；</p>
+        </div>
+    </div>
+</div>
+<footer>
+</footer>
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function () {
+            var top=$(document).scrollTop();
+            var menu=$('#menu');
+            var items=$('#container').find('.items');
+            var currentId='';
+            items.each(function () {
+                var m=$(this);
+                var itemTop=m.offset().top;
+                if(top>itemTop-20){
+                    currentId='#'+m.attr('id');
+                }else{
+                    return false;
+                }
+            });
+            var currentLink=menu.find('.current');
+            if(currentId && currentLink.attr('href')!==currentId){
+                currentLink.removeClass('current');
+                menu.find('[href='+currentId+']').addClass('current')
+            }
+        })
+    })
+</script>
